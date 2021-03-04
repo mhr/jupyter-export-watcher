@@ -1,3 +1,3 @@
 import os
 
-os.system("nodemon ./jupyter-export-watcher/jupyter_export_watcher.js --config ./jupyter-export-watcher/nodemon.json")
+os.system("nodemon ./jupyter-export-watcher/jupyter-export-watcher.js --config ./jupyter-export-watcher/nodemon.json")
