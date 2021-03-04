@@ -4,4 +4,4 @@
 `$ yarn add nodemon`
 
 ## Running
-`$ nodemon jupyter_export_watcher.js`
+`$ nodemon ./jupyter_export_watcher/jupyter_export_watcher.js`
