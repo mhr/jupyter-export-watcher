@@ -8,8 +8,11 @@ Yes.
 
 ## Installing Dependencies
 - Node
+
 https://nodejs.org/en/
+
 - Nodemon
+
 `$ npm install -g nodemon`
 
 ## Running
