@@ -7,9 +7,9 @@ This command watches the filesystem (recursively) for changes to *.ipynb files, 
 Yes.
 
 ## Installing Dependencies
-- Node
+- [Node.js](https://nodejs.org/en/)
 
-https://nodejs.org/en/
+- [Python](https://www.python.org/)
 
 - Nodemon
 
