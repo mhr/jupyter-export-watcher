@@ -7,7 +7,10 @@ This command watches the filesystem (recursively) for changes to *.ipynb files, 
 Yes.
 
 ## Installing Dependencies
-`$ yarn add nodemon`
+- Node
+https://nodejs.org/en/
+- Nodemon
+`$ npm install -g nodemon`
 
 ## Running
 `$ nodemon ./jupyter_export_watcher/jupyter_export_watcher.js`
