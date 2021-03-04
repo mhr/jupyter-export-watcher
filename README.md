@@ -1,7 +1,7 @@
 # Jupyter Export Watcher
 
 ## Installing Dependencies
-$ yarn add nodemon
+`$ yarn add nodemon`
 
 ## Running
-$ nodemon --exec "python" ./jupyter_export_watcher.py
+`$ nodemon --exec "python" ./jupyter_export_watcher.py`
