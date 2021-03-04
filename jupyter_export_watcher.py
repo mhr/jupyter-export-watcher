@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import shutil
 
 dirs = set()
 for path in Path().rglob("*.ipynb"):
@@ -11,12 +12,12 @@ for dir_ in dirs:
     command = "jupyter nbconvert --to script ./{}/*.ipynb".format(dir_)
     os.system(command)
 
-print("...Removing whitespace from names...")
+print("...Removing whitespace from *.py names...")
 for path in Path().rglob("*.py"):
     path = str(path)
-    if ".ipynb_checkpoints" not in path:
+    if ".ipynb_checkpoints" not in path and "jupyter_export_watcher" not in path:
         split_path = path.split("\\")
         dir_, fname = "/".join(split_path[:-1]), split_path[-1]
         if " " in fname:
             without_ws_fname = "".join(fname.split())
-            os.rename("./"+path, "./"+dir_+"/"+without_ws_fname)
+            shutil.move("./"+path, "./"+dir_+"/"+without_ws_fname)

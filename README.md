@@ -4,4 +4,4 @@
 `$ yarn add nodemon`
 
 ## Running
-`$ nodemon --exec "python" ./jupyter_export_watcher.py`
+`$ nodemon jupyter_export_watcher.js`
