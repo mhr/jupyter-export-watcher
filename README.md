@@ -11,9 +11,7 @@ Yes.
 
 - [Python](https://www.python.org/)
 
-- Nodemon
-
-`$ npm install -g nodemon`
+- [Nodemon](https://github.com/remy/nodemon)
 
 ## Running
 `$ nodemon ./jupyter_export_watcher/jupyter_export_watcher.js`
