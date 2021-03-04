@@ -19,5 +19,5 @@ Yes.
 - Clone the repo and place it in the same parent directory your Jupyter notebooks reside in
 - Command
 ```
-$ nodemon ./jupyter_export_watcher/jupyter_export_watcher.js
+$ python ./jupyter-export-watcher/app.py
 ```
