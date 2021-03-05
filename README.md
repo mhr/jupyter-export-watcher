@@ -13,6 +13,8 @@ Yes.
 
 - [Python](https://www.python.org/)
 
+- [Jupytext](https://jupytext.readthedocs.io/en/latest/install.html)
+
 - [Nodemon](https://github.com/remy/nodemon)
 
 ## Running

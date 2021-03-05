@@ -10,10 +10,10 @@ for path in Path().rglob("*.ipynb"):
         dirs.add("/".join(path.split("/")[:-1]))
 
 for dir_ in dirs:
-    command = "jupyter nbconvert --to script ./{}/*.ipynb".format(dir_)
+    command = f"jupytext --to py \"./{dir_}/*.ipynb\""
     os.system(command)
 
-print("...Removing whitespace from *.py names...")
+print("\n...Removing whitespace from *.py names...")
 for path in Path().rglob("*.py"):
     path = str(path)
     path = path.replace("\\", "/") # switch from Windows-style to Unix
